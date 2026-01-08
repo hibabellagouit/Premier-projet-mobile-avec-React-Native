@@ -1,13 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
 export default function AppFooter() {
-  const year = new Date().getFullYear();
-  const appName = "React-Native-Premier-projet-mobile";
-
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        © {year} – {appName}. Tous droits réservés.
+        All rights reserved, 2025
       </Text>
     </View>
   );

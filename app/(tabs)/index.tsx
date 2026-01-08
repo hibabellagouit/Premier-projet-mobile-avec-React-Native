@@ -10,7 +10,7 @@ export default function App() {
       <AppHeader />
 
       <View style={styles.content}>
-        <MainCard />  {/* Ajout de la carte centrale */}
+        <MainCard />  {/*  */}
       </View>
 
       <AppFooter />
