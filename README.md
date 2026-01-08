@@ -65,4 +65,6 @@ cd my-app
 npm start
 
 
-Scanne le QR code avec l’application Expo Go ou lance l’émulateur.
+<img width="1366" height="728" alt="localhost_8081 - Google Chrome 08_01_2026 23_49_58" src="https://github.com/user-attachments/assets/8baf05e9-26cb-4f91-8279-d86ac50cf462" />
+<img width="1366" height="728" alt="localhost_8081 - Google Chrome 09_01_2026 00_47_09" src="https://github.com/user-attachments/assets/e5817d56-d101-4e37-b2c8-01a3582f5609" />
+
