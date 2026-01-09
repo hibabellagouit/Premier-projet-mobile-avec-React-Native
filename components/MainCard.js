@@ -1,35 +1,23 @@
-import { StyleSheet, Text, View } from "react-native";
+// WelcomeScreen.js
+import * as React from 'react';
+import { View, Text } from 'react-native';
 
-export default function MainCard() {
+export default function WelcomeScreen() {
   return (
-    <View style={styles.card}>
-      <Text style={styles.title}>Bienvenue !</Text>
-      <Text style={styles.subtitle}></Text>
+    <View style={{ flex: 1 }}>
+      <Text
+        style={{
+          padding: 40,
+          fontSize: 50,
+          color: '#EDEFEE',
+          textAlign: 'center',
+        }}
+      >
+        Bienvenue dans l’application Mobile Academy.
+        Ce texte d’accueil est assez long, avec une grande taille de police,
+        et ne tient pas entièrement sur un seul écran.
+        L’utilisateur doit pouvoir faire défiler pour lire l’intégralité du message.
+      </Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  card: {
-    backgroundColor: "#EDEFEE",
-    padding: 20,
-    borderRadius: 10,
-    width: "85%",
-    alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: "bold",
-    marginBottom: 6,
-    color: "#333",
-  },
-  subtitle: {
-    fontSize: 16,
-    color: "#555",
-    textAlign: "center",
-  },
-});

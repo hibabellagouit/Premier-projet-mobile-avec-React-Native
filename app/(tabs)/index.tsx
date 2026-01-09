@@ -1,6 +1,6 @@
 import AppFooter from "@/components/AppFooter";
 import AppHeader from "@/components/AppHeader";
-import MainCard from "@/components/MainCard";
+import MainCard from "@/components/WelcomeScreen";
 import { StyleSheet, View } from 'react-native';
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#495E57',
+    backgroundColor: '#6B9080',
   },
   content: {
     flex: 1,

@@ -13,7 +13,7 @@ export default function AppFooter() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#F4CE14',
+    backgroundColor: '#DDBEA9',
     paddingVertical: 12,
     paddingHorizontal: 16,
   },

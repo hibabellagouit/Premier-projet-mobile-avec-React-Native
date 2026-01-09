@@ -12,7 +12,7 @@ export default function AppHeader() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#F4CE14',
+    backgroundColor: '#DDBEA9',
     paddingVertical: 20,
     paddingHorizontal: 16,
   },
